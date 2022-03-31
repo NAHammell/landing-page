@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.header ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.sub-header h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.sub-header p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sub-header button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.card div {
+    height: 100px;
+    width: 100px;
+    border-width: 4px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote p {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    height: 100px;
+    margin: 32px;
+    padding: 8px 32px;
+    gap: 64px;
+}
+
+.container h4 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.container p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    font-size: 18px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+li a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+}
