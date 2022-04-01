@@ -116,11 +116,13 @@ body {
 
 .container h4 {
     font-size: 24px;
+    margin: 0;
     color: #F9FAF8;
 }
 
 .container p {
     font-size: 18px;
+    margin: 0;
     color: #E5E7EB;
 }
 
