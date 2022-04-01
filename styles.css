@@ -54,6 +54,8 @@ body {
     border-radius: 8px;
     width: 100px;
     height: 32px;
+    font-size: 14px;
+    font-weight: 700;
 
 }
 
@@ -145,6 +147,8 @@ body {
     border: 2px solid #E5E7EB;
     border-radius: 4px;
     padding: 4px 16px;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 .footer {
