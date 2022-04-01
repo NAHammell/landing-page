@@ -89,9 +89,14 @@ body {
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote p {
+    width: 800px;
     font-size: 36px;
     color: #1F2937;
 }
